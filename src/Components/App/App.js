@@ -3,8 +3,14 @@ import './App.css';
 import {SearchBar} from '../SearchBar/SearchBar';
 import {SearchResults} from '../SearchResults/SearchResults';
 import {Playlist} from '../Playlist/Playlist';
+import {Track} from '../Track/Track';
+
 
 class App extends React.Component{
+  constructor(props){
+    super(props);
+    this.state.SearchResults = [{Track}];
+  }
   render(){
     return (
       <div>
