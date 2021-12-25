@@ -2,6 +2,10 @@ import React from 'react';
 import './Track.css';
 
 export class Track extends React.Component{
+    //renderAction method returns a button element
+    renderAction(){
+        //TODO
+    }
     render(){
         return (
             <div className="Track">
