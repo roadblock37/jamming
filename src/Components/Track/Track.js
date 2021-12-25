@@ -1,7 +1,7 @@
 import React from 'react';
 import './Track.css';
 
-export class Track extends React.Component{
+class Track extends React.Component{
     
     //renderAction method returns a button element
     renderAction(){
@@ -24,3 +24,5 @@ export class Track extends React.Component{
         );
     }
 }
+
+export default Track;
